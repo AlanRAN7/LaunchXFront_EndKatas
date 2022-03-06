@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="cabecera">
+        <a href="user.html"><h3>GHOSTCAKE</h3></a>
+        <a href="sabores.html"><p>Sabores</p></a>
+        <a href="adornos.html"><p>Adornos</p></a>
+        <a href="formulario.html"><button>Pedir pastel</button></a>
+    </nav>
+    
+        
+        <form action="">
+            <fieldset>
+                <legend>Información de Pedido:</legend>
+                <label for="">NOTA: El pastel se le entregará en la sucursal, no hacemos envios a domicilio. De igual modo, es importante llenar los que están con un asterisco al lado.</label>
+                <br>
+                <label for="">Nombre Completo*:</label>
+                <input type="text">
+                <br>
+                <label for="">Teléfono*: </label>
+                <input type="number">
+                <br>
+                <label for="">Correo Eléctronico*: </label>
+                <input type="email">
+                <br>
+                <label for="">Descripción del pastel*:</label>
+                <input type="text">
+                <br>
+                <label for="">Sabor #1*</label>
+                <input list = "sabor1" name = "sabor" id = "sabor" type="text">
+                <datalist id ="sabor1">
+                    <option value="Chocolate">
+                    <option value="Vainilla">
+                    <option value="Fresa">
+                    <option value="Limón">
+                    </datalist>
+                <br>
+                <label for="">Sabor #2</label>
+                <input list = "sabor2" name = "sabor" id = "sabor" type="text">
+                <datalist id ="sabor2">
+                    <option value="Chocolate">
+                    <option value="Vainilla">
+                    <option value="Fresa">
+                    <option value="Limón">
+                    </datalist>
+                <br>
+                <label for="">Adorno #1*</label>
+                <input list = "adorno1" name = "sabor" id = "sabor" type="text">
+                <datalist id ="adorno1">
+                    <option value="Cuchillo de Ghostface">
+                    <option value="Motosierra de Leatherface">
+                    <option value="Máscara de Michael Myers">
+                    <option value="Máscara de Silence INK">
+                    </datalist>
+                <br>
+                <label for="">Adorno #2</label>
+                <input list = "adorno2" name = "sabor" id = "sabor" type="text">
+                <datalist id ="adorno2">
+                    <option value="Mascara de Ghostface">
+                        <option value="Motosierra de Leatherface">
+                        <option value="Máscara de Michael Myers">
+                        <option value="Máscara de Silence INK">
+                    </datalist>
+                <br>
+                <input type="button" value="Pedir">
+                <br>
+            </fieldset>
+    </form>
+</body>
+</html>
